@@ -14,6 +14,11 @@ export default defineConfig({
       buildDirectory: 'build', // carpeta donde irán los assets
     }),
   ],
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'resources/js'),
+    },
+  },
   build: {
     outDir: 'public/build', // carpeta final de los assets
     emptyOutDir: true,
