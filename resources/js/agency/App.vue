@@ -97,14 +97,14 @@
 
 <script setup>
     import { ref, watch  } from 'vue'
-    import Header from '../components/Header.vue';
-    import TopBar from '../components/TopBar.vue';
-    import Footer from '../components/Footer.vue';
-    import Whatsapp from '../components/Whatsapp.vue';
-    import Tawk from '../components/Tawk.vue';
-    import BottomBar from '../components/BottomBar.vue';
-    import OffcanvasTop from '../components/OffcanvasTop.vue'
-    import BookingFormModal from '../components/BookingFormModal.vue'
+    import Header from '@/components/Header.vue';
+    import TopBar from '@/components/TopBar.vue';
+    import Footer from '@/components/Footer.vue';
+    import Whatsapp from '@/components/Whatsapp.vue';
+    import Tawk from '@/components/Tawk.vue';
+    import BottomBar from '@/components/BottomBar.vue';
+    import OffcanvasTop from '@/components/OffcanvasTop.vue'
+    import BookingFormModal from '@/components/BookingFormModal.vue'
     import { useRoute, useRouter } from 'vue-router'
     import { useLocaleStore } from '../stores/locale'
     import { setLang, t } from '../lang'
