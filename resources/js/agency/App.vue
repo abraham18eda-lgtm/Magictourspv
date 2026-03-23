@@ -1,5 +1,5 @@
 <template>
-    <TopBar />
+    <Topbar />
     <Header @open-drawer="drawerOpen = true" />
         <div id="app">
             <router-view />
@@ -98,7 +98,7 @@
 <script setup>
     import { ref, watch  } from 'vue'
     import Header from '../components/Header.vue';
-    import TopBar from '../components/TopBar.vue';
+    import Topbar from '../components/Topbar.vue';
     import Footer from '../components/Footer.vue';
     import Whatsapp from '../components/Whatsapp.vue';
     import Tawk from '../components/Tawk.vue';
